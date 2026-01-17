@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
                         >
                             <div className="flex gap-4 items-center">
                                 <img
-                                    src={`/images/${item.image}`}
+                                    src={`images/${item.image}`}
                                     alt="Fast delivery icon"
                                     className="w-12 h-12 rounded-sm"
                                 />

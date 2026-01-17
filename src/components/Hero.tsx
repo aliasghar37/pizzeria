@@ -17,10 +17,6 @@ const Hero = () => {
     return (
         <div className="hero min-h-[calc(95vh)] bg-accent ">
             <div className="pb-8 flex flex-col lg:flex-row-reverse w-full gap-24 justify-center items-center max-sm:gap-10 max-md:gap-18 ">
-                {/* <img
-                    src="images/hero.webp"
-                    className="max-w-[240px] md:max-w-sm lg:max-w-lg mask mask-squircle shadow-2xl"
-                /> */}
                 <div className="flex flex-col">
                     <img
                         src={`home/hero${active}.png`}

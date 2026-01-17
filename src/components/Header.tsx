@@ -13,7 +13,7 @@ const Header = () => {
         <div className="navbar flex justify-between bg-accent text-secondary sticky top-0 z-[11000] gap-4 px-4 drop-shadow-sm">
             <Link to={"/"} className=" text-xl">
                 <img
-                    src="/images/pizzeria-logo.png"
+                    src="images/pizzeria-logo.png"
                     alt="Pizzeria Logo"
                     className="h-12"
                 />

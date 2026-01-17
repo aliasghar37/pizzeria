@@ -16,7 +16,7 @@ const MenuItem: FC<MenuItemProps> = ({ item, readonly }) => {
         >
             <figure className="w-32 min-w-32 h-full self-center">
                 <img
-                    src={`/images/pizzas/${item.image}`}
+                    src={`images/pizzas/${item.image}`}
                     alt="Movie"
                     className="rounded-md"
                 />

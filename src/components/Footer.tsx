@@ -4,7 +4,7 @@ const Footer = () => {
             <footer className="flex max-md:flex-col bg-accent justify-between place-items-center  text-neutral-content px-52 py-8 max-md:px-52 max-sm:px-28 ">
                 <aside>
                     <img
-                        src="/images/pizzeria-logo.png"
+                        src="images/pizzeria-logo.png"
                         alt="Pizzeria logo"
                         className="w-20 brightness-0"
                     />
