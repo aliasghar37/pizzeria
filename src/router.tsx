@@ -28,5 +28,8 @@ const router = createBrowserRouter(
             </Route>
         </>,
     ),
+    {
+        basename: "/pizzeria",
+    },
 );
 export default router;
