@@ -31,7 +31,6 @@ jobs:
             - name: Upload Artifacts
               uses: actions/upload-pages-artifact@v3
               with:
-                  # this should match the output directory of your build (dist for Vite)
                   path: "./dist/"
 
     deploy:
