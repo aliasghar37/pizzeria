@@ -3,9 +3,10 @@ import { TileLayer } from "react-leaflet/TileLayer";
 import { LatLngExpression } from "leaflet";
 import { Icon } from "leaflet";
 import "leaflet/dist/leaflet.css";
+import markerIconPng from "/public/images/marker.webp?url";
 
 const icon = new Icon({
-    iconUrl: "/images/marker.webp",
+    iconUrl: markerIconPng,
     iconSize: [32, 32],
 });
 
