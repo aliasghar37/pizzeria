@@ -1,7 +1,13 @@
 import { MapContainer, Marker, Popup } from "react-leaflet";
 import { TileLayer } from "react-leaflet/TileLayer";
 import { LatLngExpression } from "leaflet";
+import { Icon } from "leaflet";
 import "leaflet/dist/leaflet.css";
+
+const icon = new Icon({
+    iconUrl: "/images/marker.webp",
+    iconSize: [32, 32],
+});
 
 const Map = () => {
     const center: LatLngExpression = [30.3014442, 71.375184];
@@ -40,7 +46,7 @@ const Map = () => {
 
             {locations.map((city) => {
                 return (
-                    <Marker position={city.position}>
+                    <Marker position={city.position} icon={icon}>
                         <Popup>{city.address}</Popup>
                     </Marker>
                 );
